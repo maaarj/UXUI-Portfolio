@@ -1,0 +1,24 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/input.css -o dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaarj/UXUI-Portfolio.git"
+  },
+  "author": "Marj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaarj/UXUI-Portfolio/issues"
+  },
+  "homepage": "https://github.com/maaarj/UXUI-Portfolio#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.24"
+  }
+}
